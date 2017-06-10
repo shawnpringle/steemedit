@@ -1,0 +1,44 @@
+Requirements for installing the application
+
+* boost 1.55
+* wxwidgets 2.8
+* libpython3.4-dev
+* piston
+* libyaml-cpp-dev
+The Steemedit binary.
+
+
+
+Getting it ready:
+install boost 1.55 or higher
+sudo apt-get install libboost-system1.55.0
+
+install wxwidgets
+sudo apt-get install wxwidgets
+
+In Windows, you might have to change one of the headers:
+There is a silly problem where the program wont compile because
+the Mingw system doesn't have a wide character version of strdup.
+Just inline a wchar_t version of strdup in that header and continue.  
+
+install python3
+
+sudo apt-get install libyaml-cpp-dev libpython3.4-dev boost
+
+install piston:
+sudo pip3 install --upgrade steem-2.2
+sudo python3 -m pip install 'steem-piston>=0.3.3' --upgrade
+
+-Ic:\wxWidgets-3.0.2\lib\wx\include\msw-unicode-3.0 -Ic:\wxWidgets-3.0.2\include
+-Ic:\Python30\include
+
+
+Requirements for compiling the application:
+
+* boost 1.55 libraries and headers
+* wxwidgets 2.8 libraries and headers
+* codeblocks
+* wxformbuilder
+
+
+

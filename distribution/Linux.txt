@@ -1,0 +1,9 @@
+Linux Mint required dependencies
+
+apt-get libwxgtk2.8-0 libpython3.4 libboost-system1.55.0 libpango-1.0-0 libwxgtk2.8-0 libgdk-pixbuf2.0-0 libglib2.0-0 libxinerama1 libsm6 libpng12-0 libtiff5 libexpat1 zlib1g libgraphite2-3  libfreetype6  libpixman-1-0 liblzma5  python3-pip
+
+Then run:
+
+sudo pip3 install -r requirements-test.txt
+sudo pip3 install "graphenelib>=0.4.4"
+sudo pip3 install steem-piston

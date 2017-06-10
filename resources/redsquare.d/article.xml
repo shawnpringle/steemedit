@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#212121" fontsize="9" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Sans" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <image imagetype="15">
+        <data>89504E470D0A1A0A0000000D4948445200000003000000030802000000D94A22E80000000373424954080808DBE14FE00000001749444154089963BC2126C6C0C0C0C0C0C0C400030816001DAA010A6A1819630000000049454E44AE426082</data>
+      </image>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

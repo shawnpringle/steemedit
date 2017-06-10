@@ -1,0 +1,6 @@
+* the make file and the codeblocks file will need some customization 
+ according to where things are installed on your system.  
+
+See docs/requirements.ascii for what you need to compile.
+
+You can simply just use the binaries rather than try to compile yourself.
